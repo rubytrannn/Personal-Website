@@ -1,0 +1,91 @@
+@charset "utf-8"
+
+body {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+#nav {
+	background: black;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+
+}
+
+#nav h1 {
+	float: left;
+
+}
+
+#nav h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Dancing Script', cursive;
+}
+
+#nav ul {
+	float: right;
+}
+
+#nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#nav ul li :hover {
+	background: darkorange;
+	transition: all ease-in-out 0.40s;
+}
+
+#hello {
+	background: darkorange;
+}
+
+#hello1 {
+	background: darkorange;
+	height: 5px;
+
+}
+
+#hello2 {
+	background: url(http://getwallpapers.com/wallpaper/full/6/1/c/842974-nice-colorful-backgrounds-2560x1600-for-samsung.jpg) no-repeat;
+	width: 100%;
+	height: 1600px;
+}
+
+.title{
+	font-size: 250%;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	font-family: 'Abril Fatface', cursive;
+}
+
+.title h2{
+	color: black;
+	font-size: 80px;
+}
+
+.intro {
+	font-size: 180%;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	font-family: 'Lexend Deca', sans-serif;
+}
